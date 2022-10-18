@@ -1,0 +1,10 @@
+/var/log/template.log {
+    daily
+    copytruncate
+    delaycompress
+    compress
+    missingok
+    rotate 30
+    minsize 1K
+    notifempty
+}
